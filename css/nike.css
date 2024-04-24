@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+body {
+  background-color: #012d63;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  outline: 3px solid rgb(255, 0, 0);
+}
+
+/* header */
+.header {
+}
+
+a {
+  color: wheat;
+}
+
+.header img {
+  padding: 16px 152px 17px 3px;
+}
+
+li {
+  padding-right: 29px;
+  /* padding-top: 30px; */
+  padding-bottom: 33px;
+}
+
+.header li {
+  padding: 30px 29px 33px;
+}
+
+.flex {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.img-logo {
+  width: 160px;
+  height: 120px;
+}
+
+.menu {
+  display: flex;
+}
+
+.section-1 {
+  background-image: url(../img/bg-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-1 p,
+.section-1 button {
+  font-family: "PT Serif", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+
+.section-1 p {
+  width: 508px;
+  height: 84px;
+  padding-bottom: 41px;
+}
+
+.section-1 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-1 h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 72px;
+}
+
+.section-1 button {
+  width: 254px;
+  height: 67px;
+  border-radius: 10px;
+  background: #8e32c6;
+}
+
+.section-2,
+.section-3,
+.section-4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-2 {
+  background-image: url(../img/bg-4.png);
+  background-position: center;
+}
+
+.section-3 {
+  background-image: url(../img/bg-3.png);
+  background-position: center;
+}
+
+.section-4 {
+  background-image: url(../img/bg-1.png);
+  background-position: center;
+}
+
+.section-2-text,
+.section-3 h2,
+.section-4 h3 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-2 ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.section-2-img-1,
+.section-2-img-2,
+.section-2-img-3 {
+  width: 240px;
+  height: 240px;
+  background-repeat: no-repeat;
+}
+
+.section-2-img-1 {
+  background-image: url(../img/img-2.png);
+  background-position: 50px 0px;
+}
+
+.section-2-img-2 {
+  background-image: url(../img/img-3.png);
+  background-position: center;
+}
+
+.section-2-img-3 {
+  background-image: url(../img/img-1.png);
+  background-position: center;
+}
+
+.section-3 h3:nth-child(1),
+.section-3 p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-3 h3:nth-child(2),
+.section-3 h3:last-child {
+  color: #d8d8d8;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.photo {
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.one,
+.two,
+.three {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.section-4 {
+  background-image: url(../img/bg-1.png);
+  background-position: center;
+}
+
+.section-4 input {
+  display: block;
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  background: #fff;
+  margin: 0 auto 19px;
+  color: #959595;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-4 input:nth-child(1) {
+  font-size: 28px;
+  width: 690px;
+  height: 60px;
+}
+
+.center-block {
+  display: block;
+  width: 248px;
+  height: 68px;
+  border-radius: 16px;
+  background: #8e32c6;
+  color: #fff;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-4 h3 {
+  padding: 20px 0px 33px 0px;
+}
+
+.section-3 h2 {
+  padding: 24px 0px 24px 0px;
+}
+
+.cir {
+  color: #fff;
+
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-1 {
+  padding-top: 176px;
+  padding-bottom: 183px;
+}
