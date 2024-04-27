@@ -5,6 +5,7 @@ body {
   background-color: #012d63;
   font-family: "Roboto", sans-serif;
   color: #fff;
+  font-family: "Roboto";
 }
 
 .container {
@@ -13,31 +14,55 @@ body {
   outline: 3px solid rgb(255, 0, 0);
 }
 
-/* header */
 .header {
+  li {
+    a {
+      color: #c7c7c7;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+    }
+  }
 }
 
-a {
-  color: wheat;
+.menu li:first-child a {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .header img {
   padding: 16px 152px 17px 3px;
 }
 
-li {
-  padding-right: 29px;
-  /* padding-top: 30px; */
-  padding-bottom: 33px;
+.header li {
+  padding: 30px 29px 33px 0px;
 }
 
-.header li {
-  padding: 30px 29px 33px;
+.no-active-lang {
+  margin-right: 5px;
+
+  color: #dcdcdc;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.active-lang {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .flex {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -53,7 +78,6 @@ li {
 .section-1 {
   background-image: url(../img/bg-2.png);
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -97,7 +121,6 @@ li {
 .section-3,
 .section-4 {
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .section-2 {
@@ -132,22 +155,29 @@ li {
   padding: 24px 0;
 }
 
+
+.main-container {
+  height: 396px;
+}
+
 .section-2-img-1,
 .section-2-img-2,
 .section-2-img-3 {
   width: 240px;
-  height: 240px;
+  height: 396px;
   background-repeat: no-repeat;
 }
 
 .section-2-img-1 {
   background-image: url(../img/img-2.png);
-  background-position: 50px 0px;
+  background-position-y: 125px; 
+  background
 }
 
 .section-2-img-2 {
+  display: flex;
   background-image: url(../img/img-3.png);
-  background-position: center;
+  background-position-y: 20%;
 }
 
 .section-2-img-3 {
@@ -247,6 +277,6 @@ li {
 }
 
 .section-1 {
-  padding-top: 176px;
   padding-bottom: 183px;
 }
+
