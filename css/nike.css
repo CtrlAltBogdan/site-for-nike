@@ -11,7 +11,7 @@ body {
 .container {
   width: 1110px;
   margin: 0 auto;
-  outline: 3px solid rgb(255, 0, 0);
+  /* outline: 3px solid rgb(255, 0, 0); */
 }
 
 .header {
@@ -121,21 +121,20 @@ body {
 .section-3,
 .section-4 {
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-2 {
   background-image: url(../img/bg-4.png);
-  background-position: center;
 }
 
 .section-3 {
   background-image: url(../img/bg-3.png);
-  background-position: center;
+  padding-bottom: 115px;
 }
 
 .section-4 {
   background-image: url(../img/bg-1.png);
-  background-position: center;
 }
 
 .section-2-text,
@@ -182,6 +181,15 @@ body {
   background: #fff;
   margin-left: 150px;
 } */
+
+.date {
+  padding-left: 13px;
+}
+
+.flex-2 {
+  display: flex;
+  padding-top: 47px;
+}
 
 .section-2-img-1,
 .section-2-img-2,
@@ -237,33 +245,10 @@ body {
   line-height: normal;
 }
 
-.date {
-  padding-bottom: 47px;
-
-  padding-left: 13px;
-}
-
-.date-year {
-  padding-bottom: 29px;
-  padding-left: 49px;
-}
-
-.name {
-  padding-left: 49px;
-}
-
-.section-3 {
-  background-image: url(../img/img-4.png);
-  background-repeat: no-repeat;
-  background-position: bottom left;
-
-  padding-top: 24px;
-  padding-bottom: 115px;
-}
-
 .photo {
   padding-left: 13px;
   padding-bottom: 29px;
+  padding-right: 5px;
 }
 
 .card {
@@ -278,17 +263,50 @@ body {
 }
 
 .card li:nth-child(1) {
-  background: tomato;
+  background-image: linear-gradient(
+    135deg,
+    hsl(180deg 100% 45%) 0%,
+    hsl(189deg 100% 48%) 13%,
+    hsl(196deg 100% 49%) 25%,
+    hsl(203deg 97% 54%) 37%,
+    hsl(217deg 100% 66%) 50%,
+    hsl(245deg 98% 75%) 63%,
+    hsl(269deg 76% 68%) 75%,
+    hsl(287deg 59% 62%) 87%,
+    hsl(305deg 52% 58%) 100%
+  );
   box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
 
 .card li:nth-child(2) {
-  background: tomato;
+  background-image: linear-gradient(
+    135deg,
+    hsl(330deg 100% 70%) 0%,
+    hsl(322deg 100% 68%) 13%,
+    hsl(315deg 100% 65%) 25%,
+    hsl(307deg 95% 62%) 37%,
+    hsl(298deg 85% 59%) 50%,
+    hsl(288deg 96% 61%) 63%,
+    hsl(278deg 100% 64%) 75%,
+    hsl(267deg 100% 67%) 87%,
+    hsl(255deg 100% 69%) 100%
+  );
   box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
 }
 
 .card li:nth-child(3) {
-  background: tomato;
+  background-image: linear-gradient(
+    135deg,
+    hsl(52deg 100% 58%) 0%,
+    hsl(42deg 100% 62%) 13%,
+    hsl(31deg 100% 66%) 25%,
+    hsl(21deg 100% 69%) 37%,
+    hsl(13deg 100% 72%) 50%,
+    hsl(4deg 100% 74%) 63%,
+    hsl(356deg 100% 74%) 75%,
+    hsl(349deg 100% 70%) 87%,
+    hsl(341deg 100% 66%) 100%
+  );
   box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
 }
 
