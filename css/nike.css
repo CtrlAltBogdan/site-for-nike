@@ -165,14 +165,13 @@ body {
   border: 5px #8e32c6 solid;
 }
 
-.section-2-img-2::before {
+/* .section-2-img-2::after {
   content: "";
   display: inline-block;
   height: 346px;
   width: 1px;
-  background: #fff;
+  background: #ff0000;
   margin-left: 200px;
-  position: absolute;
 }
 
 .section-2-img-1::before {
@@ -182,8 +181,7 @@ body {
   width: 1px;
   background: #fff;
   margin-left: 150px;
-  position: absolute;
-}
+} */
 
 .section-2-img-1,
 .section-2-img-2,
@@ -264,7 +262,6 @@ body {
 }
 
 .photo {
-  position: absolute;
   padding-left: 13px;
   padding-bottom: 29px;
 }
@@ -355,4 +352,8 @@ body {
 
 .section-1 {
   padding-bottom: 183px;
+}
+
+button:hover {
+  cursor: pointer;
 }

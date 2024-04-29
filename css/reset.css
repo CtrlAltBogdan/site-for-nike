@@ -35,3 +35,8 @@ img {
 address {
     font-style: normal;
 }
+
+* {
+    text-shadow: none;
+    box-shadow: none;
+}
