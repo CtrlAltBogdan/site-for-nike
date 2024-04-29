@@ -209,6 +209,11 @@ body {
   position: absolute;
 }
 
+.text-section-2 {
+  display: flex;
+  align-items: center;
+}
+
 .section-2-img-1 {
   background-image: url(../img/img-2.png);
   background-position-y: bottom;
