@@ -64,6 +64,9 @@ body {
 .img-logo {
   width: 160px;
   height: 120px;
+
+  padding-top: 94px;
+  padding-left: 25px;
 }
 
 .menu {
@@ -158,24 +161,6 @@ body {
 .text-section-2 {
   border: 5px #8e32c6 solid;
 }
-
-/* .section-2-img-2::after {
-  content: "";
-  display: inline-block;
-  height: 346px;
-  width: 1px;
-  background: #ff0000;
-  margin-left: 200px;
-}
-
-.section-2-img-1::before {
-  content: "";
-  display: inline-block;
-  height: 346px;
-  width: 1px;
-  background: #fff;
-  margin-left: 150px;
-} */
 
 .date {
   padding-left: 13px;
@@ -366,10 +351,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  padding-left: 40px;
 }
 
 .section-1 {
-  padding-bottom: 183px;
+  padding-bottom: 89px;
 }
 
 button:hover {
@@ -386,12 +373,12 @@ button:hover {
 
 .footer p {
   padding-bottom: 10px;
-  color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer a {
@@ -411,3 +398,30 @@ line-height: normal;
 .fomr {
   padding-bottom: 37px;
 }
+
+.flex-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cir-footer {
+  display: flex;
+  justify-content: right;
+  padding-right: 16px;
+  padding-bottom: 17px;
+  color: #fff;
+  font-family: "PT Serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  width: auto;
+height: 1px;
+color: yellow;
+}
+
