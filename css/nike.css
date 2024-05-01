@@ -10,7 +10,7 @@ body {
 .container {
   width: 1110px;
   margin: 0 auto;
-  outline: 3px solid rgb(255, 0, 0);
+  /* outline: 3px solid rgb(255, 0, 0); */
 }
 
 .menu a {
